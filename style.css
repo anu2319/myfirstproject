@@ -1,0 +1,101 @@
+h1{
+	color:red;
+	font-size:20px;
+	font-family:times new roman;
+	padding:-20px;
+	text-align:left;
+}
+
+h3{
+	color:grey;
+	font-size:15px;
+	font-family:times new roman;
+	padding:-5px;
+	text-align:left;
+}
+
+body{
+	margin:10px;
+	padding:-5px;
+	font-family:times new roman;
+	background:white;
+}
+.box
+{
+	position:absolute;
+	top:245%;
+	left:25%;
+	transform:translate(-50%,-50%);
+	padding:0px;
+	box-sizing: border-box;
+	background:white;
+	border-radius: 2px;
+	display:flex;
+}
+.box .imgBx
+{
+	width:50px;
+	height:500px;
+	left:90px;
+	flex:200px;
+	position:relative;
+	border-left-width:5px;
+	top:20px;
+}
+
+.box .imgBx 
+{
+	max-width: 200%;
+	max-height:200%;
+
+}
+
+.box .content{
+	padding-left: 150px;
+	bottom:50px;
+	position:sticky;
+	padding-top:25px;
+}
+
+.box .content h3
+{
+	margin:0;
+	color:black;
+}
+
+.box .content h2
+{
+	margin:0;
+	font-size:15px;
+	color:blue;
+}
+	
+
+.box .content h4{
+	margin:0;
+	padding-left:0px;
+}
+
+.box .content padding{
+	margin:0;
+	padding: 15px 0 0;
+	text-align:justify;
+	text-decoration:top;
+}
+
+.box .content h5{
+	margin:0;
+	padding-left:5px;
+	text-align:justify;
+	color:grey;
+}
+
+.box .content h6{
+	margin:0;
+	padding-left:5px;
+	text-align:justify;
+}
+
+.box .content p{
+	font-size:15px;
+}
